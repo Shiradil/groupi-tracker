@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Error Page</title>
+    <link rel="stylesheet" href="../static/errstyle.css">
+</head>
+<body>
+    <div class="container">
+        
+        <h1>
+            Whoops!
+        </h1>
+        <p class="message">
+            {{ .ErrorCode }} {{ .ErrorMsg }}
+        </p>
+
+        <div class="img-wrapper">
+            <img src="../assets/dogsvac.jpg" alt="">
+        </div>
+
+        <p class="mem">Looks like this page went on a vacation.</p>
+
+        <p>
+            Try our <a href="/">homepage</a> instead.
+        </p>
+    </div>
+
+
+</body>
+</html>

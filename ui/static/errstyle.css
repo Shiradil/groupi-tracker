@@ -1,0 +1,23 @@
+.container{
+    width:  400px;
+    margin-top: 100px;
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(233, 233, 233);
+}
+h1{
+    color: rgb(131, 131, 131);
+    /* font-size: ; */
+}
+.message{
+    font-size: 20px;
+}
+.mem{
+    font-size: 24px;
+}
+.img-wrapper{
+    
+}
